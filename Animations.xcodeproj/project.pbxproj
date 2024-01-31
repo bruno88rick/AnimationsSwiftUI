@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		B6594E542B6A403700B4583D /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6594E532B6A403700B4583D /* AnimationsApp.swift */; };
-		B6594E562B6A403700B4583D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6594E552B6A403700B4583D /* ContentView.swift */; };
+		B6594E562B6A403700B4583D /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6594E552B6A403700B4583D /* Animations.swift */; };
 		B6594E582B6A403B00B4583D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6594E572B6A403B00B4583D /* Assets.xcassets */; };
 		B6594E5B2B6A403B00B4583D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6594E5A2B6A403B00B4583D /* Preview Assets.xcassets */; };
+		B6594E622B6A9B7000B4583D /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6594E612B6A9B7000B4583D /* AnimatingBindings.swift */; };
+		B6594E642B6ABAF200B4583D /* ExplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6594E632B6ABAF200B4583D /* ExplicitAnimation.swift */; };
+		B6594E662B6AC90500B4583D /* AnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6594E652B6AC90500B4583D /* AnimationStack.swift */; };
+		B6594E682B6AD6F300B4583D /* AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6594E672B6AD6F300B4583D /* AnimatingGestures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B6594E502B6A403700B4583D /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6594E532B6A403700B4583D /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
-		B6594E552B6A403700B4583D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6594E552B6A403700B4583D /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		B6594E572B6A403B00B4583D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6594E5A2B6A403B00B4583D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6594E612B6A9B7000B4583D /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
+		B6594E632B6ABAF200B4583D /* ExplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimation.swift; sourceTree = "<group>"; };
+		B6594E652B6AC90500B4583D /* AnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStack.swift; sourceTree = "<group>"; };
+		B6594E672B6AD6F300B4583D /* AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				B6594E532B6A403700B4583D /* AnimationsApp.swift */,
-				B6594E552B6A403700B4583D /* ContentView.swift */,
+				B6594E552B6A403700B4583D /* Animations.swift */,
+				B6594E612B6A9B7000B4583D /* AnimatingBindings.swift */,
+				B6594E632B6ABAF200B4583D /* ExplicitAnimation.swift */,
+				B6594E652B6AC90500B4583D /* AnimationStack.swift */,
+				B6594E672B6AD6F300B4583D /* AnimatingGestures.swift */,
 				B6594E572B6A403B00B4583D /* Assets.xcassets */,
 				B6594E592B6A403B00B4583D /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6594E562B6A403700B4583D /* ContentView.swift in Sources */,
+				B6594E682B6AD6F300B4583D /* AnimatingGestures.swift in Sources */,
+				B6594E662B6AC90500B4583D /* AnimationStack.swift in Sources */,
+				B6594E642B6ABAF200B4583D /* ExplicitAnimation.swift in Sources */,
+				B6594E562B6A403700B4583D /* Animations.swift in Sources */,
 				B6594E542B6A403700B4583D /* AnimationsApp.swift in Sources */,
+				B6594E622B6A9B7000B4583D /* AnimatingBindings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
