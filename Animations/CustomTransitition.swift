@@ -61,7 +61,12 @@ struct CustomTransitition: View {
                     .fill(.red)
                     .frame(width: 200, height: 200)
                     .transition(.pivot)
-            }
+            } /*else {
+                Rectangle()
+                    .fill(.red)
+                    .frame(width: 200, height: 200)
+                    .transition(.asymmetric(insertion: .opacity, removal: .pivot))
+            }*/
         }
         .onTapGesture {
             withAnimation(.spring(duration: 1, bounce: 0.6, blendDuration: 1)) {
